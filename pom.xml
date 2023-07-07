@@ -6,6 +6,7 @@
         <module>javalin-bundle</module>
         <module>javalin-testtools</module>
         <module>javalin-micrometer</module>
+        <module>javalin-osgi</module>
     </modules>
 
     <groupId>io.javalin</groupId>
@@ -526,10 +527,10 @@
                     <groupId>org.jetbrains.kotlin</groupId>
                     <version>${kotlin.version}</version>
                 </plugin>
-                <plugin>
-                    <artifactId>maven-gpg-plugin</artifactId>
-                    <version>${gpg.plugin.version}</version>
-                </plugin>
+<!--                <plugin>-->
+<!--                    <artifactId>maven-gpg-plugin</artifactId>-->
+<!--                    <version>${gpg.plugin.version}</version>-->
+<!--                </plugin>-->
             </plugins>
         </pluginManagement>
     </build>
