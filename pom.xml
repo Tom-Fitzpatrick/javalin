@@ -527,10 +527,10 @@
                     <groupId>org.jetbrains.kotlin</groupId>
                     <version>${kotlin.version}</version>
                 </plugin>
-<!--                <plugin>-->
-<!--                    <artifactId>maven-gpg-plugin</artifactId>-->
-<!--                    <version>${gpg.plugin.version}</version>-->
-<!--                </plugin>-->
+                <plugin>
+                    <artifactId>maven-gpg-plugin</artifactId>
+                    <version>${gpg.plugin.version}</version>
+                </plugin>
             </plugins>
         </pluginManagement>
     </build>
